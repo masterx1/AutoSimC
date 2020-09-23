@@ -1,70 +1,301 @@
-[Profile]
-mage="Jeiwel"
+# SimC Addon 1.12.2
+# Requires SimulationCraft 820-01 or newer
+
+hunter="Miliexy"
 level=120
-race=troll
-region=eu
-server=ysondre
-role=spell
-professions=alchemy=175/herbalism=173
-talents=1211123
-spec=frost
+race=void_elf
+region=us
+server=sethraliss
+role=attack
+professions=leatherworking=150/engineering=150
+talents=1123231
+spec=marksmanship
 
-azerite_essences=27:3/300573/35:3/300575/300576/5:3/300577/312927/37:3/312928
+azerite_essences=22:2/300573/23:1/300575/300576/5:3/300577
+# azerite_essences_available=5:3/12:3/14:1/22:2/23:1
 
-
-[Gear]
-head=,id=159236,bonus_id=5448/1647/4786/6511/4775,context=35,azerite_powers=380/170/30/83/13
-neck=,id=158075,bonus_id=4932/4933/6316/1658,context=11,azerite_level=94
-shoulder=,id=174120,bonus_id=4824/1517/4786/6512/4775,context=6,azerite_powers=170/582/459/15/13
-back=,id=169223,bonus_id=6597/1472,context=11
-chest=,id=174119,bonus_id=4824/1517/4786/6510/4775,context=6,azerite_powers=170/582/18/83/13
-wrist=,id=159275,gem_id=168640,bonus_id=6536/4802/6578/6515/1647/4786/6516,context=35
-hands=,id=174130,enchant_id=5932,gem_id=168640,bonus_id=4824/1517/4786/6473/6470/6514,context=6
-waist=,id=174124,gem_id=168640,bonus_id=4824/1517/4786/6473/6470/6514,context=6
-legs=,id=174127,gem_id=168640,bonus_id=4824/1517/4786/6514/6473/6470,context=6
-feet=,id=169049,bonus_id=6536/6578/6579/6564/6515/1532/4786,context=35
-finger1=,id=162544,enchant_id=6110,gem_id=168640,bonus_id=6536/6578/1647/4786/6473/6470/6514,context=35
-finger2=,id=174531,enchant_id=6110,gem_id=168640,bonus_id=4824/1517/4786/6514/6473/6470,context=6
-trinket1=,id=174103,gem_id=168640,bonus_id=4823/1502/4786/6514,context=5
-trinket2=,id=174500,bonus_id=4823/6515/1502/4786,context=5
-main_hand=,id=160216,enchant_id=5949,bonus_id=6536/6578/6515/1647/4786/6516,context=35
-off_hand=,id=175009,gem_id=168640,bonus_id=4824/6578/1517/4786/6514/6473/6470,context=6
+head=,id=159398,bonus_id=4819/1587/4786/5421/4775,drop_level=120,context=23,azerite_powers=212/36/459/15/13
+neck=,id=158075,bonus_id=4936/4929/5814/1610,drop_level=110,context=11,azerite_level=70
+shoulder=,id=165921,bonus_id=4824/1537/5419/4786/4775,drop_level=120,context=6,azerite_powers=36/212/30/203/13
+back=,id=158375,bonus_id=5026/1612/4786,drop_level=120,context=35
+chest=,id=159395,bonus_id=4786/1587/5448/5419/4775,drop_level=120,context=35,azerite_powers=370/212/31/543/13
+tabard=,id=24344,drop_level=110
+wrist=,id=159380,gem_id=168640,bonus_id=5026/523/1612/4786,drop_level=120,context=35
+hands=,id=158317,bonus_id=5026/1602/5850/4783,drop_level=120,context=16
+waist=,id=159353,bonus_id=5026/1602/4786,drop_level=120,context=16
+legs=,id=168383,bonus_id=4799/1502/5850/4783,drop_level=120,context=5
+feet=,id=159388,bonus_id=5024/1597/5850/4783,drop_level=120,context=16
+finger1=,id=159460,enchant_id=6110,bonus_id=5026/1582/5855/4783,drop_level=120,context=35
+finger2=,id=168889,enchant_id=6110,bonus_id=4799/1502/4786,drop_level=120,context=5
+trinket1=,id=159617,gem_id=168640,bonus_id=5026/523/1572/5865/4784,drop_level=120,context=16
+trinket2=,id=159623,bonus_id=5021/1587/5855/4783,drop_level=120,context=16
+main_hand=,id=159657,enchant_id=6148,bonus_id=5026/1602/4786,drop_level=120,context=16
 
 ### Gear from Bags
 #
-# Grasping Crown of the Deep (480)
-# head=,id=159252,bonus_id=5448/1647/4786/6511/4775,context=35,azerite_powers=170/479/30/15/13
+# Simian Berserker's Helm (420)
+# head=,id=165535,bonus_id=4824/1537/5421/4786/4775,drop_level=120,context=6,azerite_powers=367/366/461/543/13
 #
-# Cowl of Unspeakable Horrors (480)
-# head=,id=174116,bonus_id=4824/1517/4786/6511/4775,context=6,azerite_powers=215/582/459/15/13
+# Azsh'ari Stormsurger Helm (385)
+# head=,id=167770,bonus_id=6296/6300/1472/5415/4786,drop_level=120,context=14,azerite_powers=
 #
-# Mask of the Daredevil (1)
-# head=,id=173955,context=9
+# Spring Circlet (1)
+# head=,id=44803,drop_level=120
 #
-# Mask of the Burned Bridge (1)
-# head=,id=174342,context=9
+# Electrified Crown of Rahu'ai (405)
+# head=,id=165820,bonus_id=4823/1522/5418/4786/4775,drop_level=120,context=5,azerite_powers=371/373/31/83/13
 #
-# Mask of the Dark Imagination (1)
-# head=,id=173953,context=9
+# Simian Berserker's Helm (420)
+# head=,id=165535,bonus_id=4824/1537/5421/4786/4775,drop_level=120,context=6,azerite_powers=107/560/461/543/13
 #
-# Mask of the Long Night (1)
-# head=,id=172952,context=9
+# Visage of Bloody Horrors (420)
+# head=,id=159381,bonus_id=4819/1587/6265/4786/4775,drop_level=120,context=23,azerite_powers=366/480/30/14/13
 #
-# Mask of the Pained (1)
-# head=,id=173524,context=9
+# Visage of Bloody Horrors (420)
+# head=,id=159381,bonus_id=5420/1587/4786/5026/4775,drop_level=120,context=35,azerite_powers=162/212/30/14/13
 #
-# Void Ascendant's Mantle (480)
-# shoulder=,id=174120,bonus_id=4824/1517/4786/6512/4775,context=6,azerite_powers=215/582/459/15/13
+# Target-Tracking Headgear (420)
+# head=,id=165543,bonus_id=4824/1537/5421/4786/4775,drop_level=120,context=6,azerite_powers=211/562/459/543/13
 #
-# Robe of the Fallen Keeper (475)
-# chest=,id=174115,bonus_id=4824/1517/4786/6510,context=6,azerite_powers=
+# Azsh'ari Stormsurger Helm (385)
+# head=,id=167770,bonus_id=6296/6300/1472/5415/4786,drop_level=120,context=14,azerite_powers=
 #
-# Loa Betrayer's Vestments (480)
-# chest=,id=159233,bonus_id=5448/1647/4786/6510/4775,context=35,azerite_powers=215/168/21/15/13
+# Hook-Barbed Spaulders (420)
+# shoulder=,id=159376,bonus_id=4786/1587/5448/5421/4775,drop_level=120,context=35,azerite_powers=213/107/21/469/13
 #
-# Void-Drenched Wristwraps (475)
-# wrist=,id=174122,bonus_id=4824/6516/6513/1517/4786,context=6
+# Abyssal Commander's Mantle (435)
+# shoulder=,id=168359,bonus_id=4823/1502/6266/4786/4775,drop_level=120,context=5,azerite_powers=162/36/31/83/13
 #
-# Vile Manipulator's Cuffs (470)
-# wrist=,id=173471,bonus_id=6412/6515/6578/1527/4786/6473/6470,context=55
+# Cannoneer's Mantle (420)
+# shoulder=,id=159393,bonus_id=4819/1587/6263/4786/4775,drop_level=120,context=23,azerite_powers=211/366/31/87/13
 #
+# 7th Legionnaire's Monnion (400)
+# shoulder=,id=163389,bonus_id=1592/5416/4786,drop_level=120,context=25,azerite_powers=
+#
+# Void-Drenched Cape (410)
+# back=,id=159289,bonus_id=5026/41/1572/5855/4783,drop_level=120,context=16
+#
+# Trashmaster's Mantle (425)
+# back=,id=168970,bonus_id=4819/1472/5855/4783,drop_level=120,context=23
+#
+# Void-Drenched Cape (425)
+# back=,id=159289,bonus_id=5026/1582/5860/4784,drop_level=120,context=35
+#
+# Hauberk of Sunken Despair (420)
+# chest=,id=159354,bonus_id=4786/1587/5448/5419/4775,drop_level=120,context=35,azerite_powers=369/211/21/14/13
+#
+# Deathslaver's Hauberk (420)
+# chest=,id=159395,bonus_id=4786/1587/5448/5419/4775,drop_level=120,context=35,azerite_powers=366/365/31/543/13
+#
+# Tri-Heart Chestguard (420)
+# chest=,id=159362,bonus_id=4786/1587/5448/5419/4775,drop_level=120,context=35,azerite_powers=373/213/30/85/13
+#
+# Mistfire Raiment (420)
+# chest=,id=165540,bonus_id=4824/1537/5420/4786/4775,drop_level=120,context=6,azerite_powers=36/562/31/469/13
+#
+# Servitor's Heartguard (420)
+# chest=,id=168355,bonus_id=4822/1487/6264/4786/4775,drop_level=120,context=3,azerite_powers=369/366/459/543/13
+#
+# Azsh'ari Stormsurger Vest (385)
+# chest=,id=167767,bonus_id=6296/6300/1472/5414/4786,drop_level=120,context=14,azerite_powers=
+#
+# Circuit-Linked Chainmail (420)
+# chest=,id=168981,bonus_id=4819/1472/6264/4786/4775,drop_level=120,context=23,azerite_powers=36/212/30/44/13
+#
+# Raoul's Barrelhook Bracers (425)
+# wrist=,id=159356,bonus_id=5024/1597/4786,drop_level=120,context=16
+#
+# Abyssal Bubbler's Bracers (435)
+# wrist=,id=169933,bonus_id=4799/1502/5850/4783,drop_level=120,context=5
+#
+# Flint-Linked Wristguards (425)
+# wrist=,id=159389,gem_id=154129,bonus_id=5026/523/1582/5860/4784,drop_level=120,context=35
+#
+# Slaughterhouse-Chain Bracers (420)
+# wrist=,id=159397,bonus_id=5026/1582/5855/4783,drop_level=120,context=35
+#
+# Grips of the Scaled Arcanist (430)
+# hands=,id=168381,bonus_id=4799/1502/4786,drop_level=120,context=5
+#
+# Grips of Harmonious Spirits (425)
+# hands=,id=165531,enchant_id=5937,bonus_id=4799/1522/5870/4784,drop_level=120,context=5
+#
+# Linked Pummeler Grips (410)
+# hands=,id=159357,bonus_id=5026/1582/4786,drop_level=120,context=35
+#
+# Grips of Forsaken Sanity (415)
+# hands=,id=167839,bonus_id=4799/1532/5850/4783,drop_level=120,context=5
+#
+# Hands of the Fanatic (440)
+# hands=,id=168886,bonus_id=4799/1502/5855/4783,drop_level=120,context=5
+#
+# Chain-Linked Safety Cord (405)
+# waist=,id=159353,gem_id=154129,bonus_id=5026/523/1572/5850/4783,drop_level=120,context=16
+#
+# Waistguard of Sanguine Fervor (400)
+# waist=,id=159402,gem_id=154127,bonus_id=5026/523/1572/4786,drop_level=120,context=16
+#
+# Tanglekelp Waistwrap (430)
+# waist=,id=168870,bonus_id=4799/1502/4786,drop_level=120,context=5
+#
+# Waistguard of Deteriorating Grace (410)
+# waist=,id=159403,bonus_id=5026/1582/4786,drop_level=120,context=35
+#
+# Chain of Consummate Power (410)
+# waist=,id=159377,bonus_id=5026/1572/5855/4783,drop_level=120,context=16
+#
+# Belt of the Consecrated Tomb (415)
+# waist=,id=159369,bonus_id=5026/1582/5850/4783,drop_level=120,context=35
+#
+# Waistguard of Sanguine Fervor (400)
+# waist=,id=159402,bonus_id=5026/1572/4786,drop_level=120,context=16
+#
+# Azsh'ari Stormsurger Legguards (400)
+# legs=,id=167771,bonus_id=6300/1487/6289,drop_level=120
+#
+# Corpuscular Greaves (425)
+# legs=,id=159384,bonus_id=5026/1572/5870/4784,drop_level=120,context=16
+#
+# Sea Priest's Greaves (400)
+# legs=,id=159359,bonus_id=5026/1572/4786,drop_level=120,context=16
+#
+# Kilt of Fanatical Consumption (435)
+# legs=,id=155868,bonus_id=5026/1602/5850/4783,drop_level=120,context=16
+#
+# Nettle-Scarred Greaves (450)
+# legs=,id=159400,gem_id=154126,bonus_id=5026/523/1612/5855/4783,drop_level=120,context=35
+#
+# Legguards of the Awakening Brood (420)
+# legs=,id=159375,bonus_id=5026/1572/5865/4784,drop_level=120,context=16
+#
+# Deathhunter's Legguards (400)
+# legs=,id=165536,bonus_id=4799/1522/4786,drop_level=120,context=5
+#
+# Chemical Blaster's Legguards (415)
+# legs=,id=158341,bonus_id=5026/1572/5860/4784,drop_level=120,context=16
+#
+# Self-Repairing Cuisses (415)
+# legs=,id=168974,bonus_id=4779/1472/4786,drop_level=120,context=23
+#
+# Fa'thuul's Floodguards (410)
+# legs=,id=167842,bonus_id=4799/1527/5850/4783,drop_level=120,context=5
+#
+# Bramble Looped Boots (415)
+# feet=,id=159404,bonus_id=5026/1572/5860/4784,drop_level=120,context=16
+#
+# Slipstreamer's Saltwalkers (425)
+# feet=,id=168385,bonus_id=4798/1487/5855/4783,drop_level=120,context=3
+#
+# Tempered Mistscale Boots of the Feverflare (415)
+# feet=,id=165420,bonus_id=1698,drop_level=120,context=13
+#
+# Souldrifting Sabatons (435)
+# feet=,id=158308,bonus_id=5026/42/1602/5850/4783,drop_level=120,context=16
+#
+# Souldrifting Sabatons (430)
+# feet=,id=158308,bonus_id=5026/1602/4786,drop_level=120,context=16
+#
+# Shell-Kickers (420)
+# feet=,id=158356,bonus_id=5026/1572/5865/4784,drop_level=120,context=16
+#
+# Shell-Kickers (430)
+# feet=,id=158356,bonus_id=5026/523/1602/4786,drop_level=120,context=16
+#
+# Bramble Looped Boots (420)
+# feet=,id=159404,bonus_id=5023/1592/4786,drop_level=120,context=16
+#
+# Bramble Looped Boots (400)
+# feet=,id=159404,bonus_id=5026/1572/4786,drop_level=120,context=16
+#
+# Sabatons of Coruscating Energy (410)
+# feet=,id=159388,gem_id=154129,bonus_id=5026/523/1582/4786,drop_level=120,context=35
+#
+# Lightgrace Sabatons (415)
+# feet=,id=165533,bonus_id=4800/41/1537/4786,drop_level=120,context=6
+#
+# Lightgrace Sabatons (415)
+# feet=,id=165533,bonus_id=4800/1537/4786,drop_level=120,context=6
+#
+# Band of the Roving Scalawag (420)
+# finger1=,id=162541,enchant_id=5940,bonus_id=5026/1582/5855/4783,drop_level=120,context=35
+#
+# Loop of Pulsing Veins (410)
+# finger1=,id=159463,enchant_id=5940,bonus_id=5026/1582/4786,drop_level=120,context=35
+#
+# Band of Multi-Sided Strikes (420)
+# finger1=,id=165565,bonus_id=4800/1537/5850/4783,drop_level=120,context=6
+#
+# Overseer's Lost Seal (415)
+# finger1=,id=159460,enchant_id=5940,bonus_id=5026/1572/5860/4784,drop_level=120,context=16
+#
+# Seal of the Regal Loa (400)
+# finger1=,id=159458,bonus_id=5026/42/1572/4786,drop_level=120,context=16
+#
+# Ritual Binder's Ring (415)
+# finger1=,id=159459,enchant_id=5944,bonus_id=5026/1572/5860/4784,drop_level=120,context=16
+#
+# Band of the Ancient Dredger (430)
+# finger1=,id=159461,enchant_id=6108,bonus_id=5026/1602/4786,drop_level=120,context=16
+#
+# Seal of Questionable Loyalties (420)
+# finger1=,id=158314,enchant_id=6108,bonus_id=5026/42/1582/5855/4783,drop_level=120,context=35
+#
+# Seal of the Zandalari Empire (425)
+# finger1=,id=165567,bonus_id=4800/1537/5855/4783,drop_level=120,context=6
+#
+# Ashvane's Razor Coral (435)
+# trinket1=,id=169311,bonus_id=4799/1502/5850/4783,drop_level=120,context=5
+#
+# Dead-Eye Spyglass (405)
+# trinket1=,id=159623,bonus_id=5026/1572/5850/4783,drop_level=120,context=16
+#
+# Tiny Electromental in a Jar (410)
+# trinket1=,id=158374,bonus_id=5026/1572/5855/4783,drop_level=120,context=16
+#
+# Pocket-Sized Computation Device (410)
+# trinket1=,id=167555,gem_id=167556/168742/167693,gem_bonus_id=0/1472:4786,bonus_id=1482,drop_level=120,context=11
+#
+# Idol of Indiscriminate Consumption (420)
+# trinket1=,id=167868,bonus_id=4799/1532/5855/4783,drop_level=120,context=5
+#
+# Phial of the Arcane Tempest (430)
+# trinket1=,id=169313,bonus_id=4799/523/1502/4786,drop_level=120,context=5
+#
+# Razzashi Tooth Medallion (420)
+# trinket1=,id=165667,bonus_id=4803/40/1607/5850/4783,drop_level=120,context=28
+#
+# Azerokk's Resonating Heart (405)
+# trinket1=,id=159612,bonus_id=5026/42/1572/5850/4783,drop_level=120,context=16
+#
+# Lustrous Golden Plumage (430)
+# trinket1=,id=159617,bonus_id=5026/1602/4786,drop_level=120,context=16
+#
+# Galecaller's Boon (405)
+# trinket1=,id=159614,bonus_id=5026/1572/5850/4783,drop_level=120,context=16
+#
+# Harlan's Loaded Dice (415)
+# trinket1=,id=155881,bonus_id=5026/1572/5860/4784,drop_level=120,context=16
+#
+# Snakebite Recurve (410)
+# main_hand=,id=159637,bonus_id=5026/1582/4786,drop_level=120,context=35
+#
+# Vile Exsanguinator (415)
+# main_hand=,id=159655,enchant_id=5963,bonus_id=5026/42/1582/5850/4783,drop_level=120,context=35
+#
+# Twin-Pipe Buster Cannon (415)
+# main_hand=,id=165600,enchant_id=5964,gem_id=154129,bonus_id=4800/523/1537/4786,drop_level=120,context=6
+#
+# Crossbow of Forgotten Majesty (435)
+# main_hand=,id=159643,bonus_id=5025/1597/5855/4783,drop_level=120,context=16
+#
+# Shiver Venom Crossbow (430)
+# main_hand=,id=168273,enchant_id=5964,bonus_id=4799/1502/4786,drop_level=120,context=5
+#
+# Captain's Diplomacy (400)
+# main_hand=,id=159130,bonus_id=5026/1572/4786,drop_level=120,context=16
+#
+# Captain's Diplomacy (430)
+# main_hand=,id=159130,bonus_id=5026/1602/4786,drop_level=120,context=16
+#
+# Snakebite Recurve (430)
+# main_hand=,id=159637,enchant_id=5955,bonus_id=5026/43/1602/4786,drop_level=120,context=16
